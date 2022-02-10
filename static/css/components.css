@@ -1,9 +1,8 @@
 /*
  * File: 'components.css'
- * Created by UkB
- * Created on Dec 04 2019
+ * Created by Pascie
  *
- * Copyright (c) 2019 Echwood Inc.
+ * Copyright (c) 2021 PaxieLib.
  *
  * Description:
  *       Components Style
@@ -18,13 +17,33 @@
     height: 97vh;
 }
 
+
+
+.AceFullHeight {
+    margin: auto;
+    height: 97vh;
+}
+
 .AceOverlay {
     /* background: linear-gradient(135deg,#499bea,#798eea); */
     /* background: linear-gradient(135deg,#5755d9,#4b48d6); */
     background-color: rgba(0, 102, 254, 0.1);
     height: 100%;
+    max-width: 90%;
+    margin: auto;
     padding: 0 20px;
     /* opacity: .9; */
+}
+
+.AceBannerImg {
+    margin-bottom: -5em;
+    height: 86vh;
+    position: absolute;
+}
+
+.AceVideoView {
+    height: 96%;
+    background-color: black;
 }
 
 /* ABOUT CONTAINER */
@@ -60,6 +79,8 @@
     margin: auto;
 }
 
+
+
 /* .AlphaCentre {
     margin: auto;
     text-align: center;
@@ -90,13 +111,14 @@
 
 .AceCatchPhrases h1 {
     color: #FFF;
+    font-size: 2.2rem;
     line-height: 1.5;
 }
 
 .AceCatchPhrases h2 {
     color: #FFF;
-    line-height: 1;
-    font-size: 1.1rem;
+    line-height: 1.5;
+    font-size: 1.2rem;
 }
 
 .AceCatchPhrases i {
@@ -130,7 +152,7 @@
 .AceCategory {
     padding: 2em 0 3em;
     margin: auto;
-    width: 70%;
+    width: 80%;
 }
 
 
@@ -153,11 +175,15 @@
 .AceSquareEdgeBtn {
     background: none;
     border: 0;
+    height: 3em;
+    min-width: 10em;
     border: 1.5px solid white;
     border-radius: .6em;
     padding: .5em 2.5em;
     color: white;
     font-weight: 600;
+    font-family: BRFirmaRegular;
+    font-size: 1.2em;
     margin-right: 1em ;
     margin-bottom: 2em;
     letter-spacing: 0.8px;
@@ -184,6 +210,10 @@
 
 @media screen and (max-width: 640px) {
 
+    .AceFullHeight {
+        flex: auto;
+    }
+
     .AceBackdrop {
         /* background-size: contain; */
         background-position: 70% 50%;
@@ -198,10 +228,11 @@
     }
 
     .AceCatchPhrases {
-        width: 92%;
+        flex: auto;
+        width: 100%;
         padding-top: 8em;
         text-align: center;
-        display: flex;
+        display: inline;
         align-items: center;
         justify-content: center;
         flex-direction: column;

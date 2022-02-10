@@ -1,6 +1,7 @@
 <template>
     <section class="AceTestimonials" id="testimonials">
-        <h1 class="h2 text-center my-1 Fredoka text-primary">Testimonials</h1>
+        <h1 class="h3 text-center my-1 Fredoka text-primary">What Our Students Have To Say</h1>
+        <h1 class="h2 text-center my-1 Fredoka">Students Community Feedback</h1>
         <div class="AceTestimonial columns AceCategory">
             <div class="column col-4 col-sm-12 col-md-6" v-for="testimonial in testimonials" :key="testimonial.author">
                 <div class="AceTestimonialImage">
@@ -24,61 +25,42 @@
             return {
                 testimonials: [
                     {
-                        author: 'Omotayo S. Omolayo',
-                        image: '/img/omotayo.jpg',
-                        comment: "I can proudly say that I\'m one of the lucky people who enrolled for JUPEB, I'm now a 200 Level Student of Geophysics in the University of Ilorin! If you're seeking admission and you\'re here, then I think you're lucky too.",
-                        package: 'JUPEB'
+                        author: 'Dotun Aboyeji',
+                        image: '/img/student.png',
+                        comment: "I can proudly say that I\'m one of the lucky people who joined learning on PaxieLib, I'm now a 200 Level Student of Chemistry in the University of Ilorin! If you want to learn, learn here...",
+                        package: ' Chemistry Scholar'
                     },
                     {
-                        author: 'Okurame Zino-Gift',
-                        image: '/img/gift.jpg',
-                        comment: "The day i found out about IJMB is one of the best days of my life, aside for the fact that I have gained admission now the experienced gained will forever remain within me.{Now a nursing student of BOWEN University}",
-                        package: 'IJMB'
+                        author: 'Uwana Gift',
+                        image: '/img/student.png',
+                        comment: "The day i found out about PaxieLib, my learning habit changed, Lot's of science courses got more interesting.{Now a nursing student of University of Ibadan} Don't wait start now, it's free...",
+                        package: 'Biology Scholar'
                     },
                     {
-                        author: 'Zeal Olayemi Blessing',
-                        image: '/img/zeal.jpg',
-                        comment: "I enrolled for IJMB A'level programme through Ace ALEVELS last year after! After years of seeking admission. Completing the 9-months of IJMB, I was offered admission to study Economics in the University of Ilorin.",
-                        package: 'IJMB'
+                        author: 'Olayemi Shola',
+                        image: '/img/student.png',
+                        comment: "My sister and I started learning on PaxieLib after facing many challenges in lots of subjects. Right now, we have got a hang of it and we are really excited at the opportunity of learning. Don't hesitate, Start!!'",
+                        package: 'PaxieLib Scholar'
                     },
                     
-                    // {
-                    //     author: 'Richard O. Okediya',
-                    //     image: '/img/richard.jpg',
-                    //     comment: "Been hearing about IJMB for a very long time, but I didn't beleive the gist but I can now attest to the fact that I'm highly impressed with IJMB after being through with the programme(300Lev, Law Student, Unilorin)",
-                    //     package: 'IJMB'
-                    // },
                     {
                         author: 'Kuburat O. Olanrewaju',
-                        image: '/img/kuburat.jpg',
-                        comment: "It is interesting to note that IJMB & Ace ALEVLES are moving in the right direction to enhance academics performance by giving young people like myself the opportunity to further their edu! Keep up the good Job.",
-                        package: 'IJMB'
-                    },
-                    // {
-                    //     author: 'Emmanuel F. Menyaga',
-                    //     image: '/img/emmanuel.jpg',
-                    //     comment: "Been hearing about IJMB for a very long time, but I didn't beleive the gist but I can now attest to the fact that I'm highly impressed with IJMB after being through with the programme(300Lev, Law Student, Unilorin)",
-                    //     package: 'IJMB'
-                    // },
-
-                    // {
-                    //     author: 'Mary-Jane Obenwa',
-                    //     image: '/img/maryjane.jpg',
-                    //     comment: "Been hearing about IJMB for a very long time, but I didn't beleive the gist but I can now attest to the fact that I'm highly impressed with IJMB after being through with the programme(300Lev, Law Student, Unilorin)",
-                    //     package: 'IJMB'
-                    // },
-                    {
-                        author: 'Princess Udochi Moses',
-                        image: '/img/princess.jpg',
-                        comment: "I'm a proof of JUPEB admission, it took me less than seven months after I had wasted 3 years seeking university admission through JAMB;..I'm now a bonafide Veterinary Medicine student of Imo State University---{IMSU}.",
-                        package: 'JUPEB'
+                        image: '/img/student.png',
+                        comment: "My sister and I started learning on PaxieLib after facing many challenges in lots of subjects. Right now, we have got a hang of it and we are really excited at the opportunity of learning. Don't hesitate, Start!!'",
+                        package: 'PaxieLib Scholar'
                     },
                     {
-                        author: 'Temitope A. Odukoya',
-                        image: '/img/temitope.jpg',
-                        comment: "I appreciate the opportunity JUPEB gave me and lots of people to realise our dreams. The program was fast and easy (I'm really grateful for the privilege) I'm now a final year Sociology student of University of Ilorin.",
-                        package: 'JUPEB'
+                        author: 'Princess Udochi',
+                        image: '/img/student.png',
+                        comment: "My sister and I started learning on PaxieLib after facing many challenges in lots of subjects. Right now, we have got a hang of it and we are really excited at the opportunity of learning. Don't hesitate, Start!!'",
+                        package: 'Math Scholar'
                     },
+                    {
+                        author: 'Janet Udochi',
+                        image: '/img/student.png',
+                        comment: "Got admited to study linguistics, it took me less than a week to finish up my syllabus for the semester, Nothing is looking alien to me anymore, I had a very good foundation with extra lessons on PaxieLib Courses.",
+                        package: 'English Scholar'
+                    }
                 ]
             };
         }

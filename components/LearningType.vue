@@ -1,6 +1,6 @@
 <template>
     <div class="AceRegistrationOptions AceCategory" id="register">
-        <h1 class="h2 text-center my-1 Fredoka text-primary">Registration</h1>
+        <h1 class="h2 text-center my-1 Fredoka text-primary">Start Learning Now</h1>
         <div class="AceOptions columns">
             <n-link
                 v-for="option in options"
@@ -13,10 +13,10 @@
                     </div>
 
                     <div class="card-header">
-                        <div class="card-title h5">
+                        <div class="card-title h4">
                             {{ option.title }}
                         </div>
-                        <div class="card-subtitle has-text-black-bis text-" :title="option.subtitle">
+                        <div class="subtitle has-text-black-bis text-" :title="option.subtitle">
                             {{ option.subtitle }}
                         </div>
                     </div>
@@ -39,28 +39,28 @@
             return {
                 options: [
                     {
-                        image: '/img/ijmb.png',
-                        title: 'IJMB',
-                        subtitle: 'Interim Joint Matriculation Board',
-                        link: '/ijmb'
+                        image: '/img/student.png',
+                        title: 'Arts',
+                        subtitle: 'Lit-in-English and many more interesting courses',
+                        link: '/learn'
                     },
                     {
-                        image: '/img/jupeb.png',
-                        title: 'JUPEB',
-                        subtitle: 'Joint Universities Preliminary Examinations Board',
-                        link: '/jupeb'
+                        image: '/img/student.png',
+                        title: 'Scienses',
+                        subtitle: 'Math, Biology, Chemistry, Physics... all covered',
+                        link: '/learn'
                     },
                     {
-                        image: '/img/nabteb.png',
-                        title: 'NABTEB',
-                        subtitle: 'Interim Joint Matriculation Board',
-                        link: '/ijmb'
+                        image: '/img/student.png',
+                        title: 'Social Science',
+                        subtitle: 'Learn more on some social science courses',
+                        link: '/learn'
                     },
                     {
-                        image: '/img/cambridge.png',
-                        title: 'CAMBRIDGE',
-                        subtitle: 'Oxford University',
-                        link: '/ijmb'
+                        image: '/img/student.png',
+                        title: 'Commercials',
+                        subtitle: 'Get started with interesting these couses',
+                        link: '/learn'
                     },
                 ]
             };
@@ -75,6 +75,7 @@
 
 .AceOptions .column .card {
     border: 1px solid #F5F5F5;
+    padding-bottom: 2em;
 }
 
 .AceOptions .column .card:hover {
@@ -82,10 +83,14 @@
 }
 
 .AceOptions {
-    width: 85%;
     margin: auto;
     text-align: center;
 } 
+
+.subtitle {
+    color: #242424;
+    font-size: 13px;
+}
 
 a {
     color: #222;

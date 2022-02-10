@@ -35,13 +35,13 @@ export default {
 }
 </script>
 <style scopeed>
-.AceCatchPhrases button {
+/* .AceCatchPhrases button {
     color: #ff5722;
     border: 1.5px solid #ff5722;
-}
+} */
 
-.AceCatchPhrases button:hover {
+/* .AceCatchPhrases button:hover {
     color: #fafafa;
     background: #ff5722;
-}
+} */
 </style>

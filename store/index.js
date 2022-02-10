@@ -2,36 +2,34 @@
 
 export const state = () => ({
     //App Name
-    appName: 'ACE',
+    appName: 'PaxieLib',
     //Links in App
     links: {
         //Main Menu Links
         main: [
-            { name: 'About', link: '#about' },
-            { name: 'Get in Touch', link: '#get-in-touch' },
-            { name: 'Get Started', link: '#register' },
-            { name: 'Have an Account?', link: '#register' }
+            { name: 'About', link: '/#about' },
+            { name: 'Get in Touch', link: '/#get-in-touch' },
+            { name: 'Start Learning', link: '/#register' },
+            { name: 'Join and Learn?', link: '/#register' }
         ],
         //Get in touch bottom bar items
         contacts: [
-            { icon: 'facebook', name: '@AceWorld', link: 'https://fb.me/ace' },
-            { icon: 'twitter', name: '@AceWorld', link: 'https://twitter.com/AceAlevels' },
-            { icon: 'rss', name: 'Our Blog', link: 'https://blog.ace.com' },
-            { icon: 'whatsapp', name: '+234-813-560-6728', link: 'https://api.whatsapp.com/send?phone=2348135606728&text=Hello%20Ace-ALEVELS%21%F0%9F%98%8A%20Please%20I%20would%20like%20to%20know%20more%20about%20IJMB%20and%20how%20to%20go%20about%20the%20registration%20process...%20Thanks&source=&data=' },
-            { icon: 'email', name: 'mail@aceworld.com', link: 'mailto://mail@aceworld.com' },
-            { icon: 'phone', name: '+234-813-560-6728', link: 'phone://+2348135606728' }
+            { icon: 'facebook', name: '@AceWorld', link: 'https://fb.me/paxielib' },
+            { icon: 'twitter', name: '@AceWorld', link: 'https://twitter.com/paxielib' },
+            { icon: 'whatsapp', name: '+234-813-560-6728', link: 'https://api.whatsapp.com/send?phone=2349032676002&text=Hello%20PaxieLib%21%F0%9F%98%8A%20Please%20I%20would%20like%20to%20know%20more%20about%Learning%with%PaxieLib...%20Thanks&source=&data=' },
+            { icon: 'email', name: 'mail@paxielib.com', link: 'mailto://mail@paxielib.com' },
+            { icon: 'phone', name: '+234-903-267-6002', link: 'phone://+2349032676002' }
         ],
 
         footerColumnA: [
+            { name: 'About', link: '/#about' },
             { name: 'Mission', link: '/mission' },
-            { name: 'Career', link: '/career' },
-            { name: 'Press', link: '/press' },
             { name: 'Partner with us', link: '/partner' }
         ],
         footerColumnB: [
-            { name: 'Cadlix', link: 'https://cadlix.com' },
-            { name: 'AceLite', link: '#' },
-            { name: 'AceQBank', link: 'https://aceworldqbank.com' }
+            { name: 'Learn Arts', link: '/learn/arts' },
+            { name: 'Learn Sciences', link: '/learn/science' },
+            { name: 'Learn Social Sciences', link: '/learn/socialscience' }
         ]
     }
 })

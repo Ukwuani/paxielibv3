@@ -4,7 +4,7 @@
         <div class="AceCategory">
             <div class="columns">
                 <div class="column AceAboutImg col-4 col-sm-12 col-md-6" >
-                   <div> <img src="/img/logo-blue.png"/>CE </div>
+                   <div>P<img src="/img/logo-blue.png"/>XIE </div>
                 </div>
                 <div class="column col-8 col-sm-12 col-md-6">
                     <p class="h4 BRFirmaRegular">
@@ -21,9 +21,9 @@
         name: 'registration-options',
         data () {
             return {
-                about: `Ace offers the Excellence money cannot afford. The team researched thoroughly and came 
+                about: `Paxielib offers the Excellence money cannot afford. The team researched thoroughly and came 
                                 up with this simple solution to help you learn and become an ace scholar. We have lots of 
-                                questions in our bank. With the help of Artificial Intelligence, we have been able to study and 
+                                video lessons. With the help of our thorough research and data, we have been able to study and 
                                 design this fully customizable platform.`
             }
         }
@@ -39,10 +39,12 @@
 .AceAbout img {
     height: 5rem;
     margin-bottom: -.4em;
+    margin-left: -.6em;
     margin-right: -.6em;
 }
 
 .AceAboutImg {
+    transform: rotate(-35deg);
     color: #0066f5;
     font-size: 5rem;
     font-weight: 800;

@@ -34,9 +34,9 @@
 
         </div>
         <h6>
-        <a href="https://www.echwood.com/privacy/" target="_blank"><span class="BRFirmaRegular AcePrivacy"> Privacy Policy </span></a>
+        <a href="https://paxielib.com/privacy/" target="_blank"><span class="BRFirmaRegular AcePrivacy"> Privacy Policy </span></a>
 
-            <strong>AceWorld</strong> &copy; 2019. All Rights Reserved
+            <strong>Paxielib</strong> &copy; 2019. All Rights Reserved
         </h6>
     </footer>
 </template>

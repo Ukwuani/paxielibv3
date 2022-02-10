@@ -1,9 +1,8 @@
 /*
  * File: 'fonts.css'
- * Created by UkB
- * Created on Dec 04 2019
+ * Created by Pascie
  *
- * Copyright (c) 2019 Echwood Inc.
+ * Copyright (c) 2021 PaxieLib.
  *
  * Description:
  *       Base Font Imports
@@ -25,5 +24,5 @@
 
 @font-face {
     font-family: BRFirmaBold;
-    src: url('../fonts/BR-Firma-SemiBold.woff2');
+    src: url('../fonts/BR-Firma-Bold.woff2');
 }

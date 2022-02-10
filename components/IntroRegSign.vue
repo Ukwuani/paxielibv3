@@ -2,16 +2,16 @@
     <div>
          <div class="outer">
             <div class="inner">
-                <h1 class="Fredoka h4 AceStep ">Learn Anywhere, Anytime with us</h1>
+                <!-- <h1 class="Fredoka h4 AceStep ">Learn Anywhere, Anytime with us</h1>
                 <button class="AceSquareEdgeBtn">
                     <b> GET AN ACCOUNT</b>
               </button>
 
             <button class="AceSquareEdgeBtn">
                     <b> I HAVE AN ACCOUNT</b>
-              </button>
+              </button> -->
             </div>
-            <div class="back"></div>
+            <!-- <div class="back"></div> -->
         </div>
     </div>
 </template>
@@ -35,10 +35,10 @@ export default {
     border-radius: 100%;
     color: #0066f5;
     padding: 1em;
-    width: 20em;
+    width: 30em;
     transform: rotate(-10deg);
     margin-top: 1em;
-    height: 20em;
+    height: 30em;
     justify-content: center;
     align-items: center;
     background-color: #ffffff44;
@@ -47,6 +47,8 @@ export default {
 }
 
 .inner button {
+    top: 0%;
+    position: absolute;
     background-color: #0066f5;
     color: #fefefe;
     text-shadow: #fefefe;
@@ -54,16 +56,17 @@ export default {
 }
 
 .outer {
-    background-color: #ffffff6e;
-    height: 20em;
-    width: 20em;
+    top: 5%;
+    position: absolute;
+    background-color: #eea2a26e;
+    height: 27em;
+    width: 27em;
     padding-top: .5em;
     padding-right: -20px;
     shape-outside: circle(20%);
      justify-content: center;
     align-items: center;
-    border-radius: 2em;
-    border-bottom-left-radius: 100%;
+    border-radius: 100%;
     transform: rotate(10deg)
 }
 
@@ -75,8 +78,8 @@ export default {
 
 .back {
      background-color: #ffffff6e;
-    height: 20em;
-    width: 20em;
+    height: 27em;
+    width: 27em;
     position: fixed;
     z-index: -1000;
     border-radius: 2em;
