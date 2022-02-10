@@ -1,0 +1,264 @@
+/*
+ * File: 'components.css'
+ * Created by UkB
+ * Created on Dec 04 2019
+ *
+ * Copyright (c) 2019 Echwood Inc.
+ *
+ * Description:
+ *       Components Style
+ */
+.AceBackdrop {
+    background-image: url('../img/ace-sprint.svg');
+    background-color: #0066f5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 70%;
+    height: 97vh;
+}
+
+.AceOverlay {
+    /* background: linear-gradient(135deg,#499bea,#798eea); */
+    /* background: linear-gradient(135deg,#5755d9,#4b48d6); */
+    background-color: rgba(0, 102, 254, 0.1);
+    height: 100%;
+    padding: 0 20px;
+    /* opacity: .9; */
+}
+
+/* ABOUT CONTAINER */
+.AceAboutContainer {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    padding-top: 10em;
+    align-items: center;
+    text-align: center
+
+    
+}
+
+.AceAboutImage {
+    margin-bottom: 1em;
+    margin: auto;
+    width: 5em;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AceAboutImage img {
+    width: 5em;
+    height: 5em;
+    border-radius: 100%;
+    /* filter: grayscale(20); */
+}
+
+.AceCentre {
+    margin: auto;
+}
+
+/* .AlphaCentre {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+
+
+
+
+
+/* Topbar Component Styling */
+
+
+/* Catch Phrases Component Styling */
+.AceCatchPhrases {
+    /* height: 90%; */
+    /* width: 50%; */
+    padding-top: 20em;
+    text-align: left;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.AceCatchPhrases h1 {
+    color: #FFF;
+    line-height: 1.5;
+}
+
+.AceCatchPhrases h2 {
+    color: #FFF;
+    line-height: 1;
+    font-size: 1.1rem;
+}
+
+.AceCatchPhrases i {
+    color: white;
+}
+
+
+/* 
+    IndexPage ColumnB Component
+*/
+.AceCentre {
+    padding-top:2em ;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.AceCentre {
+    color: #fff
+}
+
+
+/* 
+    Bottombar Component
+*/
+
+
+
+.AceCategory {
+    padding: 2em 0 3em;
+    margin: auto;
+    width: 70%;
+}
+
+
+
+/* Catch Phrases Stylings */
+/* .AceCatchPhrases button {
+    background: none;
+    border: 0;
+    border: 1.5px solid white;
+    border-radius: 2em;
+    padding: 1em 2.5em;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 2em;
+    letter-spacing: 0.8px;
+    outline: 0;
+    user-select: none
+} */
+
+.AceSquareEdgeBtn {
+    background: none;
+    border: 0;
+    border: 1.5px solid white;
+    border-radius: .6em;
+    padding: .5em 2.5em;
+    color: white;
+    font-weight: 600;
+    margin-right: 1em ;
+    margin-bottom: 2em;
+    letter-spacing: 0.8px;
+    outline: 0;
+    user-select: none
+}
+
+
+ .AceCatchPhrases button:hover {
+    background: white;
+    color: #0066f5;
+}
+.AceSquareEdgeBtn:hover i {
+    color: #0066f5;
+}
+
+.AceCatchPhrasesPointer {
+    /* margin-top: 5em; */
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 640px) {
+
+    .AceBackdrop {
+        /* background-size: contain; */
+        background-position: 70% 50%;
+    }
+
+    .AceTitle {
+        font-size: 15px;
+    }
+
+    .AceBackdrop {
+        height: 95vh;
+    }
+
+    .AceCatchPhrases {
+        width: 92%;
+        padding-top: 8em;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .AceCatchPhrases h1 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .AceCatchPhrases h2 {
+        font-size: 15px;
+
+    }
+
+    .AceCategory {
+        width: 80%;
+    }
+    
+    .AceCatchPhrases button {
+        padding: 1em 2em;
+        font-size: 13px;
+        margin-top: 1em;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .AceTitle {
+        font-size: 20px;
+    }
+
+    .AceBackdrop {
+        height: 60vh;
+    }
+
+    .AceCatchPhrases {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .AceBackdrop {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-height: 812px) {
+    .AceBackdrop {
+        /* height: 60vh; */
+    }
+}
+
+@media screen and (max-height: 640px) {
+    .AceBackdrop {
+        /* height: 90vh; */
+    }
+}

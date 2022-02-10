@@ -1,0 +1,68 @@
+/*
+ * File: 'styles.css'
+ * Created by UkB
+ * Created on Fri Dec 04 2019
+ *
+ * Copyright (c) 2019 Echwood Inc.
+ *
+ * Description:
+ *       Base Styles
+ */
+
+@import "./vendors/spectre/spectre.min.css";
+@import "./vendors/spectre/spectre-exp.min.css";
+@import "./vendors/spectre/spectre-icons.min.css";
+
+@import "./materialdesignicons.min.css";
+
+@import "./fonts.css";
+@import "./base.css";
+@import "./components.css";
+
+.BoldTitle {
+    font-family: 'Jost*', FredokaOne, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.Fredoka {
+    font-family: FredokaOne;
+    font-weight: 200;
+    letter-spacing: 0.7px;
+}
+
+.BRFirmaBold {
+    font-family: BRFirmaBold;
+}
+
+.BRFirmaRegular {
+    font-family: BRFirmaRegular;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0px);
+        opacity: 0.4;
+    }
+    50% {
+        transform: translateY(10px);
+        opacity: 1;
+        text-shadow: 0 0 1em #fff;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 0.4;
+    }
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}

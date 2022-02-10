@@ -1,0 +1,82 @@
+/*
+ * File: 'fonts.css'
+ * Created by UkB
+ * Created on Dec 04 2019
+ *
+ * Copyright (c) 2019 Echwood Inc.
+ *
+ * Description:
+ *       Main Style
+ */
+
+*, html, body, p, input, select, textarea, button {
+    font-family: 'Jost*', VarelaRound, Arial, Helvetica, sans-serif;
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+    font-family: FredokaOne, Arial, Helvetica, sans-serif;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+}
+
+.container {
+    padding: 0;
+}
+
+.card {
+    /* box-shadow: 0 0.25rem 1rem rgba(48,55,66,.15); */
+    /* box-shadow: 0 0 1rem rgba(48,55,66,.15); */
+    border: 0;
+    border-radius: 1.3em;
+    transition: all 0.1s linear 0s;
+}
+
+.card-pad{
+    border-radius: 20px;
+    padding: 1em
+}
+
+.card:hover {
+    /* transform: scale(0.98); */
+}
+
+.card .card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 120px;
+    margin: 2em auto 0;
+    /* transform: scale(0.6); */
+}
+
+.card .card-subtitle {
+    font-size: 13px;
+    width: 97%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.card .card-footer button {
+    transition: all 0.25s linear 0s;
+}
+
+.card .card-footer button:hover {
+    opacity: 0.8;
+    /* transform: scale(1.2); */
+}
+
+.column {
+    margin-bottom: 40px;
+}

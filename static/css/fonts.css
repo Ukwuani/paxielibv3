@@ -1,0 +1,29 @@
+/*
+ * File: 'fonts.css'
+ * Created by UkB
+ * Created on Dec 04 2019
+ *
+ * Copyright (c) 2019 Echwood Inc.
+ *
+ * Description:
+ *       Base Font Imports
+ */
+@font-face {
+    font-family: FredokaOne;
+    src: url('../fonts/FredokaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: VarelaRound;
+    src: url('../fonts/VarelaRound-Regular.ttf');
+}
+
+@font-face {
+    font-family: BRFirmaRegular;
+    src: url('../fonts/BR-Firma-Regular.woff2');
+}
+
+@font-face {
+    font-family: BRFirmaBold;
+    src: url('../fonts/BR-Firma-SemiBold.woff2');
+}
