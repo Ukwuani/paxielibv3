@@ -4,7 +4,7 @@
         <div class="AceCategory">
             <div class="columns">
                 <div class="column AceAboutImg col-4 col-sm-12 col-md-6" >
-                   <div>P<img src="/img/logo-blue.png"/>XIE </div>
+                   <div>P<img src="/img/logo-blue.png"/>XIE</div>
                 </div>
                 <div class="column col-8 col-sm-12 col-md-6">
                     <p class="h4 BRFirmaRegular">
@@ -44,6 +44,7 @@
 }
 
 .AceAboutImg {
+    min-height:10rem;
     transform: rotate(-35deg);
     color: #0066f5;
     font-size: 5rem;

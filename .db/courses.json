@@ -1,0 +1,5 @@
+[
+        { "course": "Math", "url": "/solar", "class": "all", "department": "general", "topic": "Algebra"},
+        {"course": "English", "url": "/solar", "class": "all", "department": "general", "topic": "Comprehension & Questions"},
+        {"course": "Chemistry", "url": "/solar", "class": "senior", "department": "sciences", "topic": "Introduction to Chemistry"}
+]

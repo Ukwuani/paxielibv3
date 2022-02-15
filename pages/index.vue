@@ -3,7 +3,7 @@
     <div class="AceBackdrop">
       <div class="AceOverlay">
         <div class="columns AceFullHeight">
-          <div class="col-5  column AceCatchPhrases">
+          <div class="col-5 col-sm-12 column AceCatchPhrases">
             <h1 class="h1 BRFirmaBold" v-html="catchPhrases[0]" >
             </h1>
             <h2 class="h2  BRFirmaRegular" v-html="catchPhrases[1]">
@@ -36,6 +36,7 @@
       </div>
     </div>
     <about />
+    <login />
     <learning-type />
     <testimonials />
   </section>
@@ -46,6 +47,7 @@ import About from '~/components/About'
 import LearningType from '~/components/LearningType'
 import Testimonials from '~/components/Testimonials'
 import IntroRegSign from '~/components/IntroRegSign'
+import Login from '~/components/Login'
 
 export default {
   name: 'HomePage',

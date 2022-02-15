@@ -40,6 +40,8 @@ export default {
     '@nuxtjs/axios'
   ],
 
+  serverMiddleware: ['~/api/index.js'],
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }

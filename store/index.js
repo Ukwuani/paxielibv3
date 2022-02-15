@@ -10,7 +10,7 @@ export const state = () => ({
             { name: 'About', link: '/#about' },
             { name: 'Get in Touch', link: '/#get-in-touch' },
             { name: 'Start Learning', link: '/#register' },
-            { name: 'Join and Learn?', link: '/#register' }
+            { name: 'Join and Learn?', link: '/#login' }
         ],
         //Get in touch bottom bar items
         contacts: [
@@ -37,6 +37,7 @@ export const state = () => ({
 export const getters = {
     appName: state => state.appName,
     mainLinks: state => state.links.main,
+    isAuthenticated: state => state.auth.loggedIn,
     contacts: state => state.links.contacts,
     footerColumnA: state => state.links.footerColumnA,
     footerColumnB: state => state.links.footerColumnB
