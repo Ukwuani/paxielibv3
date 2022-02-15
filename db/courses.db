@@ -1,9 +1,9 @@
-{"course":"English","url":"/solar","class":"all","department":"general","topic":"Comprehension & Questions","_id":"CR9s80HjQvkk8OIz"}
-{"course":"Math","url":"/solar","class":"all","department":"general","topic":"Algebra","_id":"K07ckKSpWg7C23EX"}
-{"course":"Chemistry","url":"/solar","class":"senior","department":"sciences","topic":"Introduction to Chemistry","_id":"Q6UhgHlRy1N8GsEq"}
-{"$$deleted":true,"_id":"CR9s80HjQvkk8OIz"}
-{"$$deleted":true,"_id":"K07ckKSpWg7C23EX"}
-{"$$deleted":true,"_id":"Q6UhgHlRy1N8GsEq"}
-{"course":"Math","url":"/solar","class":"all","department":"general","topic":"Algebra","_id":"4GpZedzfs5di7pon"}
-{"course":"English","url":"/solar","class":"all","department":"general","topic":"Comprehension & Questions","_id":"EbD3xSrrYzApExgp"}
-{"course":"Chemistry","url":"/solar","class":"senior","department":"sciences","topic":"Introduction to Chemistry","_id":"vBAkZKdAbvkeWeBs"}
+{"course":"Chemistry","url":"/learn/maths","class":"senior","department":"sciences","topic":"Introduction to Chemistry","_id":"5uJcLO4DZNz7AfCX"}
+{"course":"Math","url":"/learn/maths","class":"all","department":"general","topic":"Algebra","_id":"jwbqM6jvTU4ZPy4u"}
+{"course":"English","url":"/learn/maths","class":"all","department":"general","topic":"Comprehension & Questions","_id":"m3SJzhn8ln7emTKA"}
+{"$$deleted":true,"_id":"5uJcLO4DZNz7AfCX"}
+{"$$deleted":true,"_id":"jwbqM6jvTU4ZPy4u"}
+{"$$deleted":true,"_id":"m3SJzhn8ln7emTKA"}
+{"course":"Math","url":"/learn/maths","class":"all","department":"general","topic":"Algebra","_id":"KuxoVWugBqZDHrYT"}
+{"course":"English","url":"/learn/maths","class":"all","department":"general","topic":"Comprehension & Questions","_id":"7ZofpcpkI18MjHya"}
+{"course":"Chemistry","url":"/learn/maths","class":"senior","department":"sciences","topic":"Introduction to Chemistry","_id":"3riBFCkeVvD5zoCk"}

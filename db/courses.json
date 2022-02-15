@@ -1,5 +1,5 @@
 [
-        { "course": "Math", "url": "maths", "class": "all", "department": "general", "topic": "Algebra"},
-        {"course": "English", "url": "/solar", "class": "all", "department": "general", "topic": "Comprehension & Questions"},
-        {"course": "Chemistry", "url": "/solar", "class": "senior", "department": "sciences", "topic": "Introduction to Chemistry"}
+        { "course": "Math", "url": "/learn/maths", "class": "all", "department": "general", "topic": "Algebra"},
+        {"course": "English", "url": "/learn/maths", "class": "all", "department": "general", "topic": "Comprehension & Questions"},
+        {"course": "Chemistry", "url": "/learn/maths", "class": "senior", "department": "sciences", "topic": "Introduction to Chemistry"}
 ]

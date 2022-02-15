@@ -93,9 +93,15 @@ export default {
   //   console.log(this.courses)
   // },
 
-  async asyncData({ $axios }) {
-      const courses = await $axios.$get('/api/courses')
-      console.log(courses)
+  async asyncData({params, $axios }) {
+      const depts = {
+          arts: "arts",
+          science: "sciences",
+          social: "social",
+          commercial: "commercial"
+      }
+      const courses = await $axios.$get(`/api/courses?${(depts[params.course]) ? 'department=' + depts[params.course] : ''}`, {department: depts[params.course]})
+     
       return { courses }
     },
 

@@ -61,7 +61,7 @@ app.use(express.json());
 
   //courses route
   app.get(`/courses`, async (req, res) => {
-    db.courses.find({}, function (err, newDoc) {
+    db.courses.find((req.query.department) ? {department: {$in: [req.query.department, 'general']}} : {} , function (err, newDoc) {
         if (err) res.status(400).json({error: "could not find courses"})
         res.json(newDoc);
     });
