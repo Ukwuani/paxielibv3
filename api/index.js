@@ -1,6 +1,6 @@
 import express from 'express';
 import Datastore from 'nedb';
-import Courses from '../.db/courses.json'
+import Courses from '../db/courses.json'
 
 //an empty object of db datastores/collections/table
 let db = {};
@@ -10,9 +10,9 @@ const app = express();
 
 //declare nedb Database
 //1. for user datastore in the database
-db.users = new Datastore('.db/users.db');
+db.users = new Datastore('db/users.db');
 //2. for courses datastore in the database
-db.courses = new Datastore('.db/courses.db');
+db.courses = new Datastore('db/courses.db');
 //load the datastore in the database
 db.users.loadDatabase();
 db.courses.loadDatabase();

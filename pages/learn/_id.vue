@@ -2,40 +2,31 @@
   <section class="AceHomePage">
     <div class="AceBackdrop">
       <div class="AceOverlay">
-        <div class="AceVideoView">
-         <iframe id="ytplayer" type="text/html" width="100%" height="100%"
-          :src="src"
+        <div id="learn" class="AceVideoView">
+         <iframe id="player" type="text/html" width="100%" height="100%"
+          :src="`https://www.youtube.com/embed/${src}?autoplay=0&origin=https://paxielib.herokuapp.com`"
           frameborder="0"></iframe>
         </div>
       </div>
-
-
-      <div class="accordion AceCategory">
-        <input type="checkbox" id="accordion-1" name="accordion-checkbox" hidden>
-        <label class="accordion-header" for="accordion-1">
-          Title
-        </label>
-          <div class="accordion-body">
-            <ul class="menu menu-nav">
-              <li class="menu-item"><a href="#accordions">Component 1</a></li>
-              <li class="menu-item"><a href="#accordions">Component 2</a></li>
-            </ul>
-          </div>
-      </div>
-
-      <div class="accordion AceCategory">
-        <input type="checkbox" id="accordion-2" name="accordion-checkbox" hidden>
-        <label class="accordion-header" for="accordion-2">
-          Title
-        </label>
-          <div class="accordion-body">
-            <ul class="menu menu-nav">
-              <li class="menu-item"><a href="#accordions">Component 1</a></li>
-              <li class="menu-item"><a href="#accordions">Component 2</a></li>
-            </ul>
-          </div>
-      </div>
     </div>
+
+      <div class="AceLesson">
+        <div class="accordion" v-for="(topic, index) in lessons[course].topics" :key="topic">
+          <input type="checkbox" :id="`accordion-${index}`" name="accordion-checkbox" hidden>
+          <label class="accordion-header" :for="`accordion-${index}`">
+            {{topic}} <span class="mx-2 text-gray"> &#8226; {{lessons[course][topic].length}} lessons</span>
+          </label>
+            <div class="accordion-body">
+              <ul class="menu menu-nav">
+                <li class="menu-item" v-for="lesson in lessons[course][topic]" :key="lesson.url" >
+                  <a :href="`#${lesson.url}`" v-on:click="chooseVideoToPlay(lesson.url)">
+                    {{lesson.title}}  <span class="mx-2 text-gray"> &#8226;   {{lesson.description}}  &#8226;</span>  <span class="chip text-light bg-warning">{{lesson.duration}}</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
     
 
 
@@ -43,7 +34,7 @@
 </template>
 
 <script>
-
+import Lessons from '~/db/lessons.json'
 export default {
   name: 'LearnPage',
   components: {
@@ -81,7 +72,8 @@ export default {
         },
   data () {
     return {
-      src: "https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com",
+      src: "M7lc1UVf-VE",
+      lessons: Lessons,
       catchPhrases: [
         'Identify the <b> SCHOLAR IN YOU</b>',
         'We are keen about making you a maestro; equipping you for your exams with our <bold>Rich Lessons Bank</bold>',
@@ -96,7 +88,13 @@ export default {
       return this.$store.getters.mainLinks
     },
   },
+  methods: {
+    chooseVideoToPlay (src) {
+      this.src = src;
+    }
+  },
   asyncData ({params, redirect}) {
+    if (!Lessons[params.id]) redirect('/courses');
     return {course: params.id};
   }
 
@@ -107,8 +105,38 @@ export default {
   min-height: 140vh;
 }
 
+div.AceLesson {
+  min-height: 80vh;
+  width: 90%;
+  margin: 3em auto
+}
+
 .AceVideoView iframe {
   margin-top: 5em;
   border-radius: .8em;
+}
+
+div.accordion label {
+  background-color: #e6f0ff;
+  min-height: 3em;
+  border-radius: .8em;
+  padding: 1.1em;
+  font-size: 1.5em;
+  margin: .3em auto;
+}
+
+div.accordion-body {
+  background-color: #e6f0ff;
+  margin: auto 1em;
+  border-radius: 0 0 .8em .8em;
+
+}
+
+
+div.accordion-body a{
+  padding: 1em;
+  margin: .4em 1em;
+  border-radius: .8em;
+
 }
 </style>

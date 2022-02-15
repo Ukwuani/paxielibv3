@@ -1,0 +1,22 @@
+{
+        "maths": {
+                "topics": ["Numeracy", "Arithemics"],
+                "Numeracy": [
+                        {"title": "Place Value", "url": "T5Qf0qSSJFI", "duration":"9m", "description": "Getting Started with Number Systems & Place Value"},
+                        {"title": "Decimal Place Value", "url": "KG6ILNOiMgM", "duration":"12m", "description": "Understanding Decimals, the 10 digit base"},
+                        {"title": "Number Rounding", "url": "fd-E18EqSVk", "duration":"11m", "description": "Understanding Rounding - Estimates"},
+                        {"title": "The Number Line", "url": "RSJOTBJlKNA", "duration":"10m", "description": "How Numbers Relate to Each other"},
+                        {"title": "Basic Inequalities", "url": "mgHO-bsCDrA", "duration":"12m", "description": "Using Number Line to see the Inequalities in Numbers"}
+                        
+                ],
+                "Arithemics": [
+                        {"title": "What Is Arithmetic?", "url": "IwW0GJWKH98", "duration":"11m", "description": "Four basic math operations: add, subtract, multiply, divide"},
+                        {"title": "Order Of Operations", "url": "dAgfnK528RA", "duration":"9m", "description": "Which math rule should go first? learn now"},
+                        {"title": "The Distributive Property In Arithmetic", "url": "VZ0jG3W53nE", "duration":"10m", "description": "How to change the order of operations while doing an arithemic"},
+                        {"title": "Factoring", "url": "0NvLtTwnUHs", "duration":"6m", "description": "Figuring out numbers that can be multiplied to get a number"},
+                        {"title": "Prime Factorization", "url": "XGbOiYhHY2c", "duration":"6m", "description": "Numbers that has exactly two factors, itself and 1"},
+                        {"title": "Number Patterns", "url": "vV7C7bXm4VI", "duration":"14m", "description": "Understanding number sequences and occurence"}
+                        
+                ]
+        }
+}

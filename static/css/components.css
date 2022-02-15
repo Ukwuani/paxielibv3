@@ -280,16 +280,25 @@
     .AceBackdrop {
         height: 80vh;
     }
+
+    .AceVideoView {
+        height: 60%;
+    }
 }
 
 @media screen and (max-height: 812px) {
     .AceBackdrop {
         /* height: 60vh; */
     }
+
 }
 
 @media screen and (max-height: 640px) {
     .AceBackdrop {
         /* height: 90vh; */
+    }
+
+    .AceVideoView {
+        height: 70%;
     }
 }
