@@ -55,7 +55,8 @@ export default {
     About,
     LearningType,
     Testimonials,
-    IntroRegSign
+    IntroRegSign,
+    Login
   },
   head () {
             return {

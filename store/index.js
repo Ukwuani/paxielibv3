@@ -23,8 +23,8 @@ export const state = () => ({
 
         footerColumnA: [
             { name: 'About', link: '/#about' },
-            { name: 'Mission', link: '/mission' },
-            { name: 'Partner with us', link: '/partner' }
+            { name: 'Mission', link: '/#about' },
+            { name: 'Partner with us', link: '/#about' }
         ],
         footerColumnB: [
             { name: 'Learn Arts', link: '/learn/arts' },
