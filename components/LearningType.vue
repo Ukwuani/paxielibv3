@@ -54,13 +54,13 @@
                         image: '/img/student.png',
                         title: 'Social Science',
                         subtitle: 'Learn more on some social science courses',
-                        link: '/learn/socialscience'
+                        link: '/learn/social'
                     },
                     {
                         image: '/img/student.png',
                         title: 'Commercials',
                         subtitle: 'Get started with interesting these couses',
-                        link: '/learn/commerce'
+                        link: '/learn/commercial'
                     },
                 ]
             };
