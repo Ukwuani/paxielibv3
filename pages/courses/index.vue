@@ -2,7 +2,7 @@
   <section class="AceHomePage">
     <div v-if="courses==null" class="loading loading-lg"></div>
     <div v-else v-show="courses" class="AceCourses columns">
-                  <!-- {{courses}} -->
+                  
 
             <n-link
                 v-for="course in courses"
