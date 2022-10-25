@@ -42,25 +42,25 @@
                         image: '/img/student.png',
                         title: 'Arts',
                         subtitle: 'Lit-in-English and many more interesting courses',
-                        link: '/learn/art'
+                        link: '/courses'
                     },
                     {
                         image: '/img/student.png',
                         title: 'Scienses',
                         subtitle: 'Math, Biology, Chemistry, Physics... all covered',
-                        link: '/learn/science'
+                        link: '/courses'
                     },
                     {
                         image: '/img/student.png',
                         title: 'Social Science',
                         subtitle: 'Learn more on some social science courses',
-                        link: '/learn/social'
+                        link: '/courses'
                     },
                     {
                         image: '/img/student.png',
                         title: 'Commercials',
                         subtitle: 'Get started with interesting these couses',
-                        link: '/learn/commercial'
+                        link: '/courses'
                     },
                 ]
             };
