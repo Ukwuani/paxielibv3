@@ -1,22 +1,381 @@
 {
-        "maths": {
-                "topics": ["Numeracy", "Arithemics"],
-                "Numeracy": [
-                        {"title": "Place Value", "url": "T5Qf0qSSJFI", "duration":"9m", "description": "Getting Started with Number Systems & Place Value"},
-                        {"title": "Decimal Place Value", "url": "KG6ILNOiMgM", "duration":"12m", "description": "Understanding Decimals, the 10 digit base"},
-                        {"title": "Number Rounding", "url": "fd-E18EqSVk", "duration":"11m", "description": "Understanding Rounding - Estimates"},
-                        {"title": "The Number Line", "url": "RSJOTBJlKNA", "duration":"10m", "description": "How Numbers Relate to Each other"},
-                        {"title": "Basic Inequalities", "url": "mgHO-bsCDrA", "duration":"12m", "description": "Using Number Line to see the Inequalities in Numbers"}
-                        
+    "maths": {
+            "topics": ["Numeracy", "Arithemics"],
+            "Numeracy": [
+                    {"title": "Place Value", "url": "T5Qf0qSSJFI", "duration":"9m", "description": "Getting Started with Number Systems & Place Value"},
+                    {"title": "Decimal Place Value", "url": "KG6ILNOiMgM", "duration":"12m", "description": "Understanding Decimals, the 10 digit base"},
+                    {"title": "Number Rounding", "url": "fd-E18EqSVk", "duration":"11m", "description": "Understanding Rounding - Estimates"},
+                    {"title": "The Number Line", "url": "RSJOTBJlKNA", "duration":"10m", "description": "How Numbers Relate to Each other"},
+                    {"title": "Basic Inequalities", "url": "mgHO-bsCDrA", "duration":"12m", "description": "Using Number Line to see the Inequalities in Numbers"}
+                    
+            ],
+            "Arithemics": [
+                    {"title": "What Is Arithmetic?", "url": "IwW0GJWKH98", "duration":"11m", "description": "Four basic math operations: add, subtract, multiply, divide"},
+                    {"title": "Order Of Operations", "url": "dAgfnK528RA", "duration":"9m", "description": "Which math rule should go first? learn now"},
+                    {"title": "The Distributive Property In Arithmetic", "url": "VZ0jG3W53nE", "duration":"10m", "description": "How to change the order of operations while doing an arithemic"},
+                    {"title": "Factoring", "url": "0NvLtTwnUHs", "duration":"6m", "description": "Figuring out numbers that can be multiplied to get a number"},
+                    {"title": "Prime Factorization", "url": "XGbOiYhHY2c", "duration":"6m", "description": "Numbers that has exactly two factors, itself and 1"},
+                    {"title": "Number Patterns", "url": "vV7C7bXm4VI", "duration":"14m", "description": "Understanding number sequences and occurence"}
+                    
+            ]
+    },
+    
+          "biology": {
+                "topics": ["Living things", "The cell", "Growth", "Dentition", 
+                "Digestive system", "Circulatory/Transport system", "Respiratory system",
+                "Skeletal system", "Excretory system", "Reproductive system", 
+                "Reproduction in flowering plants", "Sense organs", "Aquatic habitats",
+                "Terrestrial habitats", "Ecosystem", "Soil", "Pollution", "Evolution  theories", 
+                "Conservation of natural resources", "Genetics", "Pests & diseases"
+            ],
+                "Living things": [
+                        {"title": "Introduction to living things", "url": "juxLuo-sH6M", "duration":"3:39", "description": "This video is an introduction to what living things are."},
+                        {"title": "Classification of living things part 1", "url": "7583hOuZQTQ", "duration":"21:28", "description": "This video is an introduction to what living things are."},
+                        {"title": "Classification of living things part 2", "url": "wTw9rdO8H2c", "duration":"17:38", "description": "This video is an introduction to what living things are."}
                 ],
-                "Arithemics": [
-                        {"title": "What Is Arithmetic?", "url": "IwW0GJWKH98", "duration":"11m", "description": "Four basic math operations: add, subtract, multiply, divide"},
-                        {"title": "Order Of Operations", "url": "dAgfnK528RA", "duration":"9m", "description": "Which math rule should go first? learn now"},
-                        {"title": "The Distributive Property In Arithmetic", "url": "VZ0jG3W53nE", "duration":"10m", "description": "How to change the order of operations while doing an arithemic"},
-                        {"title": "Factoring", "url": "0NvLtTwnUHs", "duration":"6m", "description": "Figuring out numbers that can be multiplied to get a number"},
-                        {"title": "Prime Factorization", "url": "XGbOiYhHY2c", "duration":"6m", "description": "Numbers that has exactly two factors, itself and 1"},
-                        {"title": "Number Patterns", "url": "vV7C7bXm4VI", "duration":"14m", "description": "Understanding number sequences and occurence"}
-                        
+                "The cell": [
+                        {"title": "Cell structure & functions", "url": "t5DvF5OVr1Y", "duration":"53:34", "description": "In this lesson, we would be talking about cell structure and cell function."},
+                        {"title": "Cell & it’s environment", "url": "oyUWUaJynMM", "duration":"3:17", "description": "This video explains the cell environment."},
+                        {"title": "Transport in cells", "url": "PRi6uHDKeW4", "duration":"3:51", "description": "Let's discuss transport system in cells."}                        
+                ],
+                "Growth": [
+                    {"title": "Growth & development introduction", "url": "Dr1Eyd5Uf6M", "duration":"16:56", "description": "This video briefly gives an introduction of growth and development."},
+                    {"title": "Growth & development in plants", "url": "woUudrbK_no", "duration":"9:39", "description": "This video discusses growth and development in plants."},
+                    {"title": "Growth & development in animals", "url": "HS7IBQG5p-0", "duration":"4:23", "description": "This video discusses growth and development in animals."},
+                    {"title": "Growth & development full tutorial", "url": "_PM_ysz8ujo", "duration":"31:12", "description": "This video discusses growth and development in organisms."}
+                ],
+                "Dentition": [
+                        {"title": "Introduction to dentition", "url": "n4TBO-GBhys", "duration":"1:30", "description": "In this lesson, we would be talking about dentition."},
+                        {"title": "Basic dental Terminology", "url": "09X7X5kh3VI", "duration":"37:40", "description": "In this lesson, we would be talking about the basic dental terminology."},
+                        {"title": "Types of dentition", "url": "dSLnLJoFaxs", "duration":"8:59", "description": "This video explains the types of dentition, showing clear differences between them and characteristic features of each type of dentition."},
+                        {"title": "Structure of the tooth and care for the tooth", "url": "AfTykxpeoNU", "duration":"5:34", "description": "This video talks about the detailed structure of a vertical cross-section of a tooth and the different ways to care for the tooth."}
+                ],
+                "Digestive system": [
+                    {"title": "Introduction to digestive system", "url": "Z4N0cgpgAMc", "duration":"8:05", "description": "This video gives a brief overview of what the digestive system is all about: definition of the digestive system and the diagram of the digestive system."},
+                    {"title": "-Structure and function of the digestive system", "url": "hndHaLSoYiM", "duration":"1:35:26", "description": "This video describes the structure and the function of the digestive sytem. "}
+               ],
+                "Circulatory/Transport system": [
+                        {"title": "Introduction to circulatory system", "url": "73ei6YD0VnM", "duration":"2:26", "description": "This video explains the meaning of circulatory system."},
+                        {"title": "Transport system in animals", "url": "DckJogknBf8", "duration":"35:27", "description": "This video explains the transport system in animals."},
+                        {"title": "Transport system in plants", "url": "bvPM6sfidY4", "duration":"7:56", "description": "This video explains the transport system in plants."},                        
+                        {"title": "Transport system in humans", "url": "5u_bvRQ0Kn8", "duration":"15:16", "description": "This video explains the transport system in humans."}                        
+                ],
+                "Respiratory system": [
+                    {"title": "Introduction to respiratory system", "url": "fQsgZloXNPY", "duration":"3:07", "description": "This video explains what respiratory system means."},
+                    {"title": "Human respiratory system", "url": "4WQTOEQHdD8", "duration":"17:41", "description": "This video explains the process of respiration in human beings as well as the anatomy of respiration in humans."}
+               ],
+               "Skeletal system": [
+                {"title": "Introduction to skeletal system", "url": "38MsEkhdECM ", "duration":"7:15", "description": "This video gives a brief overview of the skeltal system."},
+                {"title": "The skeletal system", "url": "f-FF7Qigd3U", "duration":"14:54", "description": "This video explains the important concepts in the skeltal system in the human body."},
+                {"title": "Bones: Structure and types", "url": "2vESqp8mL5I", "duration":"12:10", "description": "This video explains the structure of bones and the different types of bones."}
+           ],
+              "Excretory system": [
+                {"title": "Introduction to excretory system", "url": "q5qaGHfdmYM", "duration":"9:49", "description": "This video gives a brief overview of the excretory system"},
+                {"title": "Excretory systems in organisms", "url": "oo-BaHlSyl8", "duration":"16:06", "description": "This video explains excretory systems in different organisms."},
+                {"title": "Human Excretory system", "url": "zAczdDFyglA", "duration":"8:08", "description": "This video explains excretory system in humans as well as their respective diagrams."},
+                {"title": "Human Excretion", "url": "EhnRhfFLyOg", "duration":"4:01", "description": "This video talks about the process of excretion in humans."}
+           ],
+             "Reproductive system": [
+               {"title": "Introduction to reproductive system", "url": "jRYEqOOrjH8", "duration":"6:37", "description": "This video gives a brief overview of what reproduction and reproductive system entails"},
+               {"title": "Human reproduction 1(Female reproductive system)", "url": "l6FiqejPOt8", "duration":"5:31", "description": "This video explains the reproductive system in human females."},
+               {"title": "Human reproduction 2(Male reproductive system)", "url": "UbaHww04iLo", "duration":"5:32", "description": "This video explains the reproductive system in human males."},
+               {"title": "The menstrual cycle", "url": "0adWZZhrN-Y", "duration":"3:10", "description": "This video explains the concept of menstration in the female human body."},
+               {"title": "Human reproduction: Anatomy, fertilization and puberty", "url": "ikaogWXgMos", "duration":"6:10", "description": "This video explains the process of fertilization as well as puberty."}
+           ],
+             "Reproductive in flowering plants": [
+               {"title": "Introduction to plant reproduction", "url": "AYyqNiLvAx4", "duration":"4:50", "description": "This video gives you a brief overview of the reproduction flowering plants."},
+               {"title": "Plant reproduction: flower anatomy and pollination", "url": "h077JEQ8w6g", "duration":"4:12", "description": "This video discusses the flower anatomy and  also the process of  pollination. "},
+               {"title": "Plant reproduction:  fertilization, seed formation and dispersal", "url": "WhACez3y6Hc", "duration":"4:20", "description": "This video explains the process of fetilization, seed formation and dispersal in plants."},
+               {"title": "Plant reproduction: Germination", "url": "lW2ASitTC4o", "duration":"3:06", "description": "This video explains the process of germination in plants."},
+               {"title": "Sexual  reproduction in plants", "url": "R8_ScKzLAfE", "duration":"4:06", "description": "This video explains sexual reproduction in plants."},
+               {"title": "Asexual  reproduction in plants: vegetative propagation", "url": "7sr1Sd8T2YU", "duration":"6:48", "description": "This video explains asexual reproduction in plants through vegetative propagation."}
+            ], 
+             "Sense organs": [
+                {"title": "Introduction to sense organs", "url": "-2caC-uI7l4", "duration":"6:22", "description": "This video discusses the five sense organs in th human body."},
+                {"title": "Sense organ: Eye(seeing)", "url": "9OS-9pG1lT0", "duration":"2:05", "description": "This video discusses the eye as a sense organ of sight."},
+                {"title": "Sense organ: Ear(hearing)", "url": "j4Sli1dsCrA", "duration":"3:03", "description": "This video discusses the ear as a sense organ of hearing."},
+                {"title": "Sense organ: Skin(touch)", "url": "mWeTqNdSQlE", "duration":"3:59", "description": "This video discusses the skin as a sense organ of touch."},
+                {"title": "Sense organ: Tongue(taste)", "url": "SneTFJc7u7Y", "duration":"3:16", "description": "This video discusses the tongue as a sense organ of taste."},
+                {"title": "Sense organ: Nose(smell)", "url": "8Qezy4Gb6V8", "duration":"2:19", "description": " This video discusses the nose as a sense organ of smell."}
+             ],
+             "Ecosystem": [
+                {"title": "Meaning of ecosystem", "url": "KQF9WdZrH_c", "duration":"11:40", "description": "This video explains the meaning of ecosystems."},
+                {"title": "Types of ecosystem", "url": "xwFr2hWjo5s", "duration":"4:32", "description": "This video discusses the different types of ecosystem."}
+             ],
+             "Aquatic habitats": [
+                {"title": "Aquatic Ecosystem(Characteristics, types and examples)", "url": "vINK9ujrRwM", "duration":"4:11", "description": "This video discusses the aquatic ecosytem the types, characteristics, and examples."},
+                {"title": "Aquatic habitat: Estuarine habitat", "url": "s4n5o2aEvRM", "duration":"9:13", "description": "This video discusses the estuarine aquatic habitat."},
+                {"title": "Aquatic habitat: Marine habitat", "url": "JqgxSjoDmXQ", "duration":"6:55", "description": "This video discusses the marine aquatic habitat."},
+                {"title": "Aquatic habitat: Freshwater habitat", "url": "uocWdk30eU0", "duration":"10:47", "description": "This video discusses the freshwater aquatic habitat."}
+             ],
+             "Terrestrial habitats": [
+                {"title": "Terrestrial habitats", "url": "enhzT8l13LM", "duration":"15:24", "description": "This video discusses the different terrestrial habitats as well as their characteristics."}
+             ], 
+             "Soil": [
+                {"title": "Meaning of soil", "url": "udseIcrUxvA", "duration":"10:02", "description": "This video explains the meaning of soil and why it is important. "},
+                {"title": "Types of soil", "url": "idLDCWNTXgg", "duration":"3:02", "description": "This video explains the different types of soil."},
+                {"title": "Layers of soil", "url": "og9A_Apr534", "duration":"3:31", "description": "This video explains the process of soil formation."},
+                {"title": "Soil erosion and conservation", "url": "uo_ntewAemw", "duration":"5:31", "description": "This video explains soil erosion and ways of conserving the soil."}
+             ],
+             "Pollution": [
+                {"title": "Introduction to pollution", "url": "7qkaz8ChelI", "duration":"21:54", "description": "This video gives a brief overview of what pollution means."},
+                {"title": "Water pollution", "url": "Om42Lppkd9w", "duration":"2:35", "description": "This video discusses water pollution."},
+                {"title": "Air pollution", "url": "t7Q7y_xjR5E", "duration":"2:57", "description": "This video discusses air pollution."},
+                {"title": "Soil pollution", "url": "iIHw8gf6LqY", "duration":"3:17", "description": "This video discusses soil pollution."},
+                {"title": "Noise pollution", "url": "p7XkZleu9aY", "duration":"2:55", "description": "This video discusses noise pollution."}
+             ],
+             "Evolution theories": [
+                {"title": "Meaning of evolution", "url": "GhHOjC4oxh8", "duration":"8:47", "description": "This video explains the meaning of evolution."},
+                {"title": "Human evolution", "url": "UPggkvB9_dc", "duration":"16:13", "description": "This video gives a brief overview of what human evolution is."},
+                {"title": "Human evolution animation", "url": "HwnB8aCn8yE", "duration":"1:37", "description": "This video illustrates the different stages in the human evolution."},
+                {"title": "Evolution theory: Charles Darwin’s theory", "url": "vnktXHBvE8s", "duration":"3:02", "description": "This video explains the evolution theory by Charles Darwin"},
+                {"title": "Evolution theory: Lamarck’s theory", "url": "KNimldhXd5o", "duration":"7:18", "description": "This video explains the evolution theory by Jean Baptiste de Lamarck."}
+             ],
+             "Conservation of natural resources": [
+                {"title": "Introduction to natural resources", "url": "ajk-pvm5vfQ", "duration":"5:55", "description": "This video explains the meaning and types of  natural resources."},
+                {"title": "How to conserve the environment", "url": "ajk-pvm5vfQ", "duration":"24:35", "description": "This video explains the ways of conserving natural resources in the environment."}
+             ],
+             "Genetics": [
+                {"title": "Introduction to Genetics", "url": "cc3-WB1_Ysk", "duration":"17:11", "description": "This video discusses briefly the basic concepts in genetics: chromosomes, genes,etc."},
+                {"title": "Laws of genetics", "url": "mD0Onu2ArGA", "duration":"14:33", "description": "This video discusses the laws of genetics"},
+                {"title": "Genetics: Understanding crosses", "url": "fTQZF9WBJ0U", "duration":"13:14", "description": "This video discusses briefly the concept of crossing in genetics."},
+                {"title": "Dominance and its types", "url": "Bo1rllFcehM", "duration":"5:55", "description": "This video discusses briefly the concept and types of dominance in genetics."},
+                {"title": "Genetics: Chromosomal theory of inheritance", "url": "t6uD7328MZI", "duration":"8:58", "description": "This video discusses briefly the chromosomal theory of inheritance."},
+                {"title": "Genetics: Chromosomes structure and types", "url": "TJfPbtXmngs", "duration":"6:36", "description": "This video discusses briefly the chromosomes structure and its types."},
+                {"title": "Genetics: Sex determination", "url": "AzkXQBzZElE", "duration":"10:15", "description": "This video discusses sex determination in genetics."},
+                {"title": "Genetics: Mutations and their types", "url": "mCOMD291oBM", "duration":"11:33", "description": "This video discusses mutations and types of mutations."}
+             ],
+             "Pests & diseases": [
+                {"title": "Pests control", "url": "g6LMw9I6rxU", "duration":"4:16", "description": "This video explains pest control."},
+                {"title": "Plant disease", "url": "05ITJlgPcR0", "duration":"6:03", "description": "This video explains plant disease."},
+                {"title": "Pests and diseases of crops", "url": "7K67xHkCxM8", "duration":"15:01", "description": "This video explains pests and diseases of crops."}
+             ]                                                                                                                                                                                                                                                                                                                 
+        },
+        "Physics": {
+                "topics": ["Units & measurements", "Motion", "Scalars & vectors", "Projectiles",
+                "Work, Energy & Power", "Simple Harmonic Motion(SHM)", 
+                "Equilibrium of forces", "Simple Machines", "Friction & Viscosity",
+                "Pressure", "Temperature & its measurement", "Thermal expansion",
+                "Heat energy", "Change of state", "Waves", "Light", "Fields",
+                "Atoms", "Simple A.C circuits", "Electromagnetic Induction"  
+                ],
+                "Units & measurements": [
+                        {"title": "Introduction to units and measurement", "url": "AVC-426M6V0", "duration":"5:41", "description": "This video explains the meaning of units of measurement and the importance of measurements."},
+                        {"title": "Measurements and units in Physics", "url": "cmb1LbI6BgU", "duration":"25:33", "description": "This video discusses the units and measuremens in physics."}
+                ],
+                "Motion": [
+                        {"title": "Introduction to motion", "url": "elAzkXyRQFU", "duration":"4:12", "description": "This is an introduction to motion."},
+                        {"title": "Motion and its types part I", "url": "8qh--3X6E5w", "duration":"3:29", "description": "This lesson explains the different types of motion."},
+                        {"title": "Motion and its types part II", "url": "7J_Pi4Xuk7Y", "duration":"4:43", "description": "This lesson explains the different types of motion."},
+                        {"title": "Newton's Laws of Motion", "url": "10KqhXbbLzs", "duration":"23:22", "description": "This video explains the Newton's Laws of Motion with illustrations."}                       
+                ],
+                "Scalars & Vectors": [
+                        {"title": "Introduction to scalar and vector quantity", "url": "Pj8Zh0A-uLU", "duration":"2:22", "description": "This is an introduction to scalar and vector quantity."},                        
+                        {"title": "Scalars and Vectors", "url": "rcDXQ-5H8mk", "duration":"11:20", "description": "This video explains the scalar and vector quantities in physics."}                       
+                ],
+                "Projectiles": [
+                        {"title": "Introduction to Projectile motion", "url": "aY8z2qO44WA", "duration":"7:05", "description": "This video illustrates the prjectile motion using an animation."},                        
+                        {"title": "Projectile Motion in Physics", "url": "-VREL8x-Em0", "duration":"31:14", "description": "This video explains projectile motion with illustrations."}                        
+                ],
+                "Work, Energy & Power": [
+                        {"title": "Introduction to Work, Energy and Power", "url": "w4QFJb9a8vo", "duration":"9:54", "description": "This video introduces work, energy and power."},                        
+                        {"title": "Work, Energy and Power", "url": "59ie0giKW-E", "duration":"22:35", "description": "This video explains the concept of work, power and energy with examples."},                        
+                        {"title": "Word problems on work, energy and power", "url": "_MR1Dp8-F8w", "duration":"1:01:43", "description": "This video shows real problems and solvings on work, energy and power."}                        
+                ],
+                "Simple Harmonic Motion(SHM)": [
+                        {"title": "Introduction to Simple Harmonic Motion", "url": "jxstE6A_CYQ", "duration":"9:10", "description": "This video illustrates the prjectile motion using an animation."},                        
+                        {"title": "Simple Harmonic Motion", "url": "_Gnke2x3vT8", "duration":"14:10", "description": "This video shows real problems and solvings on Simple Harmonic Motion."}                    
+                ],
+                "Equilibrium of forces": [
+                        {"title": "What is force?", "url":"LSa17eedH9A", "duration":"21:53", "description": "This video explains the concept of force in physics."},                        
+                        {"title": "Solving Forces in Equilibrium", "url": "l_Nck-X49qc", "duration":"20:20", "description": "This video explains equilibrium of forces with real world problems and solutions."}                       
+                ],
+                "Simple Machines": [
+                        {"title": "Introduction to Simple Machines", "url": "tk9iUjMEnaY", "duration":"5:41", "description": "This video explains what simple machines are and the types of simple machines."},                        
+                        {"title": "Examples of Simple Machines", "url": "MORlORm_6Dg", "duration":"9:27", "description": "This video displays the different types of simple machine."}
+                ],
+                "Friction & Viscosity": [
+                        {"title": "What is friction", "url": "qN0V0NXV3Kw", "duration":"3:23", "description": "This video explains what friction is."},                        
+                        {"title": "What is viscosity", "url": "hg6YVqbyrQ4", "duration":"5:14", "description": "This video explains what viscosity is."},                        
+                        {"title": "Friction and viscosity", "url": "AYCmHSm1-L4", "duration":"21:05", "description": "This video explains the concept of friction and viscosity."}                       
+                ],
+                "Pressure": [
+                        {"title": "Introduction to Pressure", "url": "zlLpKzPz84Q", "duration":"5:54", "description": "This video explains the meaning of pressure."},                        
+                        {"title": "Real world problems and solutions on Atmospheric pressure", "url": "tYd_CYpNpeY", "duration":"13:12", "description": "This video discusses real world problems and solutions on atmospheric pressure."}                        
+                ],
+                "Temperature & its measurement": [
+                        {"title": "Introduction to Temperature and its measurement", "url": "_3gjRvX-Yfk", "duration":"6:55", "description": "This video explains temperature and its measurement with the help of an animation."},                        
+                        {"title": "Temperature and its measurement", "url": "ltOu8x7omj0", "duration":"33:34", "description": "This video discusses temperature and its measurement."}  
+                ],
+                "Thermal expansion": [
+                        {"title": "Introduction to thermal expansion", "url": "LmN8bybyQY8", "duration":"5:51", "description": "This video explains the concept of thermal expansion."},                        
+                        {"title": "Applications of thermal expansion", "url": "2T4TV4xOZWg", "duration":"6:14", "description": "This video explains the applications of thermal expansion and the contraction of solids."},                        
+                        {"title": "Thermal expansion equations", "url": "dmq_X5vtPoA", "duration":"4:15", "description": "This video discusses the thermal expansion equation and its variables."},                        
+                        {"title": "Thermal expansion: why gaps are left between railway tracks", "url": "9JuKqkZVgTU", "duration":"4:18", "description": "This video explains the reason why gaps are left between railway tracks."}                        
+                ],
+                "Heat Energy": [
+                        {"title": "Introduction to heat energy", "url": "xGKg3TSO4v8", "duration":"6:47", "description": "This video explains what heat energy is."},                        
+                        {"title": "Uses of heat energy", "url": "AxzSZX-hHIw", "duration":"1:16", "description": "This video explains the uses of heat energy."},                        
+                        {"title": "Sources of heat energy", "url": "01K3vqjgk3g", "duration":"2:44", "description": "This video explains the sources of heat energy."},                        
+                        {"title": "Heat Transfer", "url": "zvQZtpZnRRE", "duration":"4:33", "description": "This video explains the concept of heat transfer using an animation."}                        
+                ],
+                "Change of state": [
+                        {"title": "Introduction to change of states in matter", "url": "xYU7RSoOZ0U", "duration":"4:35", "description": "This video explains the concept of matter."},                        
+                        {"title": "States of matter", "url": "21CR01rlmv4", "duration":"3:14", "description": "This video discusses the different states of matter."},                        
+                        {"title": "Changes of state: Properties of matter", "url": "s2ObEtQKePI", "duration":"4:27", "description": "This video explains the properties of each state of matter."}                      
+                ],
+                "Waves": [
+                        {"title": "Introduction to waves", "url": "aCu4VRKMstA", "duration":"6:21", "description": "This video briefly discusses what waves are and the different types of waves."},                        
+                        {"title": "Waves crash course", "url": "DSz4ZILAneQ", "duration":"31:17", "description": "This video explains the concept of waves in full."}                      
+                ],
+                "Fields": [
+                        {"title": "Introduction to fields in physics", "url": "5N_BkadurZA", "duration":"3:58", "description": "This video explains what fields are in physics."},
+                        {"title": "Magnetic force and field", "url": "R4ht2RcWVlI", "duration":"3:33", "description": "This video discusses magnetic field as a type of field."},                        
+                        {"title": "Electric field", "url": "mdulzEfQXDE", "duration":"9:56", "description": "This video discusses electric field as a type of field."},                        
+                        {"title": "Gravitational field", "url": "g17GhkO-94M", "duration":"9:14", "description": "This video discusses gravitational field as atype of field."}                      
+                ],
+                "Atom": [
+                        {"title": "History of atoms?", "url": "3z-f63MiPB4", "duration":"3:21", "description": "This video briefly discusses the history of an atom."},                        
+                        {"title": "What is an atom?", "url": "pNroKeV2fgk", "duration":"3:59", "description": "This video briefly discusses what an atom is."},                        
+                        {"title": "Parts of an atom", "url": "cpBb2bgFO6I", "duration":"2:23", "description": "This video discusses the different parts of an atom."}                        
+                ],
+                "Simple A.C circuits": [
+                        {"title": "Introduction to A.C circuits", "url": "Jveer7vhjGo", "duration":"10:06", "description": "This video briefly discusses the A.C circuits."},                        
+                        {"title": "Simple A.C circuits", "url": "RA9wGcuWJ_0", "duration":"1:23:00", "description": "This video explains simple A.C circuits in details with calculations."}                       
+                ],
+                "Electromagnetic Induction": [
+                        {"title": "What is electromagnetic induction", "url": "3HyORmBip-w", "duration":"6:01", "description": "This video briefly discusses the meaning of electromagnetic induction."},                        
+                        {"title": "Electromagnetic induction real problems and solutions", "url": "jz92oOkJFNA", "duration":"1:42:06", "description": "This video explains electromagnetic induction in details."}          
+                ]
+        },    
+        "Chemistry": {
+                "topics": ["Introduction to Chemistry", "Nature of matter", "Elements", 
+                 "Atomic structure", "Compounds and mixtures", "IUPAC Nomenclature",
+                 "Separation techniques", "Chemical equation", "Laws of Chemical Combination",
+                 "Periodic tables", "Kinetic theory of matter",
+                 "Gases", "Acids, Bases and Alkalis", "Salts and Neutralization", "PH scale", "Carbon",
+                 "Hydrocarbons & petroleum", "Ionic theory", "Electrochemical cells",
+                 "Electrolysis", "Water", "Halogen Family", "Metals and their compounds", 
+                 "Acid/Baase reactions", "Tranisition elements", "Fats & oils", 
+                 "Nuclear chemistry", "Radioactivity"
+                ],
+                "Introduction to Chemistry": [
+                        {"title": "Introduction to Chemistry", "url": "tTHdUsKQT2Q", "duration":"7:31", "description": "This video explains the meaning of Chemistry."}
+                ],
+                "Nature of matter": [
+                        {"title": "Nature of matter part 1", "url": "SYu4Shci_3Q", "duration":"3:10", "description": "This video describes the particulate nature of matter."},
+                        {"title": "Nature of matter part 2", "url": "Ej_rlrJOAiM", "duration":"2:46", "description": "This video describes the particulate nature of matter."},
+                        {"title": "Nature of matter crash course", "url": "lRyBv9fOAlY", "duration":"20:10", "description": "This video fully explains the nature of matter."}
+                ],
+                "Elements": [
+                        {"title": "Chemical ele ments I", "url": "L1IBnH4y6-M", "duration":"6:42", "description": "This video describes what chemical elements are in chemistry."},
+                        {"title": "Chemical elements II", "url": "dMFkD_QWTOM", "duration":"5:48", "description": "This video describes what chemical elements are in chemistry."}
+                ], 
+                "Atomic Structure": [
+                        {"title": "Introduction to Atom", "url": "4YUWHWBrvI4", "duration":"35:35", "description": "This video discusses atom in details."},
+                        {"title": "Atomic structure:Protons, Electrons and Neutrons", "url": "EMDrb2LqL7E", "duration":"13:30", "description": "This video explains the atomic structure: protons, electrons and neutrons."}
+                ], 
+                "Compounds & mixtures": [
+                        {"title": "Meaning of an element, mixture and compound", "url": "aKVonDfbHrQ", "duration":"10:51", "description": "This video explains the meaning of element, compound and mixtures."},
+                        {"title": "Mixtures and compounds in summary", "url": "aKVonDfbHrQ", "duration":"6:34", "description": "This video points out the difference between compounds and mixtures in chemistry."}
+                ], 
+                "IUPAC Nomenclature": [
+                        {"title": "Nomenclature", "url": "U7wavimfNFE", "duration":"9:04", "description": "This video briefly explains IUPAC nomenclature in chemistry."},
+                        {"title": "IUPAC Nomenclature of Organic Chemistry", "url": "PYZJXWBMqBE", "duration":"33:24", "description": "This is explains the IUPAC naming of organic chemistry."}
+                ], 
+                "Separation techniques": [
+                        {"title": "Ways of separating mixtures in chemistry", "url": "wH-AHj7Lqko", "duration":"18:58", "description": "This video explains the 13 ways of separating mixtures in chemistry."}
+                ], 
+                "Chemical equations": [
+                        {"title": "How chemical equations are formed", "url": "ApJvQQLL2iY", "duration":"2:09", "description": "This video expalins how chemical equations are formed."},
+                        {"title": "Ways of balancing chemical equations in chemistry", "url": "zmdxMlb88Fs", "duration":"5:00", "description": "This video explains the steps to balance any chemical equations."},
+                        {"title": "Real world problems and solutions on balancing chemical equations in chemistry","url": "e_C-V5vJv80", "duration":"20:51", "description": "This video discusses the solutions to real world problem on balancing chemical equations."}
+                ], 
+                "Laws of chemical combination": [
+                        {"title": "4 Laws of chemical combination", "url": "y1oUQpRUk4I", "duration":"9:02", "description": "This video explains the 4 laws of chemical combination."}
+                ], 
+                "Periodic tables": [
+                        {"title": "Introduction to periodic table", "url": "0RRVV4Diomg", "duration":"11:21", "description": "This video briefly explains the periodic table."},
+                        {"title": "Periodic table crash course", "url": "okolv1y6IlE", "duration":"24:08", "description": "This video explains the periodic table in full."}
+                ], 
+                "Kinetic theory of matter": [
+                        {"title": "Kinetic theory of matter", "url": "cshKgBRigE0", "duration": "3:37", "description": "This video explaind=s the kinetic theory of matter in details."}
+                ], 
+                "Gases": [
+                        {"title": "Introduction to gases", "url": "pwZnlHjDGPc", "duration":"2:03", "description": "This video introduces gases as a state of matter."},
+                        {"title": "Gas Laws Crash Course", "url": "BxUS1K7xu30", "duration":"9:02", "description": "This video discusses gas laws with illustrations."},
+                        {"title": "Gas Laws: problems and solutions", "url": "IE8-izIba40", "duration":"1:00:04", "description": "This video discusses gas laws: equations and formulas."}
+                ], 
+                "Acid, Bases & Alkalis": [
+                        {"title": "Acid, Bases and Alkalis", "url": "ckbsHM2igT0", "duration":"3:10", "description": "In this video, you will learn about acid, base and alkalis."},
+                        {"title": "Difference between Bases and Alkalis", "url": "d7JXsfPme8E", "duration":"5:40", "description": "This video explains the differences between bases and alkalis."}
+                ], 
+                "Salts and Neutralization": [
+                        {"title": "What are salts?", "url": "WnAKhtnJjz0", "duration":"5:09", "description": "This video discusses what salts are."},
+                        {"title": "Soluble and Insoluble salts?", "url": "zWpBZuKtYFE", "duration":"4:49", "description": "This video discusses the difference between the soluble and insoluble salts."},
+                        {"title": "Making souble salts", "url": "lpM_VCMPFug", "duration":"5:25", "description": "This video explains the process of making soluble salts."},
+                        {"title": "Neutralization reactions", "url": "lBjwMcHUyBY", "duration":"4:34", "description": "This video explains neutralization reactions."}
+                ],
+                "PH Scale": [
+                        {"title": "pH in everyday life", "url": "r3hirzlWILM", "duration":"3:48", "description": "This video discusses pH as seen in everyday life."},
+                        {"title": "pH and pOH crash course", "url": "LS67vS10O5Y", "duration":"11:22", "description": "This video explains the pH and pOH in details."}
+                ],
+                "Carbon": [
+                        {"title": "Introduction to carbon", "url": "QnQe0xW_JY4", "duration":"11:56", "description": "This video explains carbon as an element."},
+                        {"title": "Allotropes of carbon", "url": "K4FcQ8tPpKQ", "duration":"17:07", "description": "This video discusses the allotropes of carbon."}
+                ],
+                "Hydrocarbons & petroleum": [
+                        {"title": "Hydrocarbons part 1", "url": "Z4HE90euFsY", "duration":"16:12", "description": "This video explains hydrocarbons."},
+                        {"title": "Hydrocarbons part 2", "url": "IsJpqn66xA0", "duration":"20:55", "description": "This video explains hydrocarbons."},
+                        {"title": "Hydrocarbons part 3", "url": "yjCyb9R9pHY", "duration": "30:26", "description": "This video explains hydrocarbons."},
+                        {"title": "Identifying classes of hydrocarbons", "url": "pfbqG31RUWs", "duration":"5:38", "description": "This video discusses how to identify different hydrocarbons."},
+                        {"title": "Nomenclature of hydrocarbons", "url": "0Zg8CLk_G6Y", "duration":"9:55", "description": "This video explains the steps to naming hydrocarbons."}
+                ],
+                "Ionic theory": [
+                        {"title": "Ionic theory", "url": "azEhC1Xeflg", "duration":"23:31", "description": "In this video, you will learn about the ionic theory in chemistry."}
+                ],
+                "Electrochemical cells": [
+                        {"title": "Electrochemical cells", "url": "WjsCFPrQzkU", "duration":"2:10", "description": "This video explains what electrochemical cells are."}
+                ],
+                "Electrolysis": [
+                        {"title": "Electrolysis introduction", "url": "NRHhytTu28M", "duration":"8:38", "description": "This video is an introduction to what electrolysis is."},
+                        {"title": "Electrolysis crash course", "url": "67kX9OV3wAs", "duration":"29:20", "description": "This video explains electrolysis."},
+                        {"title": "Electrolysis and Faraday's Laws", "url": "lf59jnSIUVQ", "duration":"34:17", "description": "This video explains Electrolysis and Faraday's laws."}
+                ],
+                "water": [
+                        {"title": "Water introduction", "url": "HVT3Y3_gHGg", "duration": "11:16", "description": "This video briefly discusses water."},
+                        {"title": "Water", "url": "pjClihDmfeA", "duration":"17:08", "description": "This video explains water in terms of chemistry."}
+                ],
+                "Halogen family": [
+                        {"title": "Halogen introduction", "url": "yW_C10cEzMk", "duration":"5:30", "description": "This video briefly introduces halogens."},
+                        {"title": "Halogen family", "url": "ae1PKCpKjZw", "duration": "14:50", "description": "This video explains the halogen family of the periodic table."}
+                ],
+                "Metals and their compounds": [
+                        {"title": "Metals and their compounds part 1", "url": "d03HlJOCMBw", "duration":"46:31", "description": "This video explains metals and their respective compounds."},
+                        {"title": "Metals and their compounds part 2", "url": "agCGK221TPo", "duration":"31:25", "description": "This video explains metals and their respective compounds."},
+                        {"title": "Metals and their compounds part 3", "url": "SrIqerG4WJ8", "duration":"36:03", "description": "This video explains metals and their respective compounds."},
+                        {"title": "Metals and their compounds part 4", "url": "HSuIYNVA7qM", "duration":"30:57", "description": "This video explains metals and their respective compounds."},
+                        {"title": "Metals and their compounds part 5", "url": "YmdZJ9KavQY", "duration":"46:15", "description": "This video explains metals and their respective compounds."}
+                ],
+                "Acid/Base reactions": [
+                        {"title": "Acid - Base reactions", "url": "ANi709MYnWg", "duration":"11:16", "description": "This video explains the reaction between acid and base."},
+                        {"title": "Acid - Base reactions with chemical equations", "url": "UfTJrAPjeys", "duration":"13:32", "description": "This video explains the reaction between acid and base with the aid of chemical equations."}
+                ],
+                "Transition elements": [
+                        {"title": "Transition elements intro", "url": "J0ZjSStMYPc", "duration":"3:58", "description": "This video explains the transition elements in the periodic table."}
+                ],
+                "Fats & oils": [
+                        {"title": "Overview fats and oils", "url": "_7qyItAeltE", "duration": "20:01", "description": "This video describes the overview of fats and oils in chemistry."}
+                ],
+                "Nuclear chemistry": [
+                        {"title": "Introduction to Nuclear Chemistry", "url": "bSgH9uXJ3CU", "duration":"14:43", "description": "This video is an introduction to nuclear chemistry."},
+                        {"title": "Nuclear reaction", "url": "T07ijWCsHhw", "duration":"14:48", "description": "This video explains nuclear reactions in chemistry."},
+                        {"title": "Nuclear chemistry: chemical equations", "url": "_AWp5wedXiE", "duration":"19:19", "description": "This video explains nuclear chemistry with real chemical equations."}
+                ],
+                "Radioactivity": [
+                        {"title": "What is radioactivity?", "url": "REgCktLmILI", "duration":"12:13", "description": "This video explains what radioactivy is."},
+                        {"title": "Radioactive decay", "url": "RyfGXg7HY_k", "duration":"14:13", "description": "This video discusses the types of radioactive decay."},
+                        {"title": "Radioactivity crash course", "url": "lOLrTO8RZDM", "duration":"21:22", "description": "This is a crash course that summarizes everything about radioactivity in details."}
                 ]
         }
 }
