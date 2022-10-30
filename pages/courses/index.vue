@@ -1,9 +1,7 @@
 <template>
   <section class="AceHomePage">
-    <div v-if="courses==null" class="loading loading-lg"></div>
-    <div v-else v-show="courses" class="AceCourses columns">
-                  
-
+    <div v-if="courses!=null" class="AceCourses columns">
+                
             <n-link
                 v-for="course in courses"
                 :key="course._id"
@@ -104,6 +102,8 @@ export default {
      
       return { courses }
     },
+
+
 
 }
 </script>

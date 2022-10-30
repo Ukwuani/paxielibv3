@@ -1,5 +1,7 @@
 [
-        { "course": "Math", "url": "/learn/maths", "class": "all", "department": "general", "topic": "Algebra"},
-        {"course": "English", "url": "/learn/maths", "class": "all", "department": "general", "topic": "Comprehension & Questions"},
-        {"course": "Chemistry", "url": "/learn/maths", "class": "senior", "department": "sciences", "topic": "Introduction to Chemistry"}
+        {"course": "Biology", "url": "/learn/biology", "class": "all", "department": "sciences", "topic": "Essesntial Biology"},
+        {"course": "Chemistry", "url": "/learn/chemistry", "class": "senior", "department": "sciences", "topic": "Introduction to Chemistry"},
+        { "course": "Physics", "url": "/learn/physics", "class": "all", "department": "sciences", "topic": "World of Physics"},
+        { "course": "Math", "url": "/learn/maths", "class": "all", "department": "general", "topic": "Understanding Mathematics"}
+
 ]
