@@ -25,7 +25,7 @@
 	"Digestive system", "Circulatory/Transport system", "Respiratory system",
 	"Skeletal system", "Excretory system", "Reproductive system", 
 	"Reproduction in flowering plants", "Sense organs", "Aquatic habitats",
-	"Terrestrial habitats", "Ecosystem", "Soil", "Pollution", "Evolution  theories", 
+	"Terrestrial habitats", "Ecosystem", "Soil", "Pollution", "Evolution theories", 
 	"Conservation of natural resources", "Genetics", "Pests & diseases"
 	],
 	"Living things": [
@@ -82,7 +82,7 @@
 	{"title": "The menstrual cycle", "url": "0adWZZhrN-Y", "duration":"3:10", "description": "This video explains the concept of menstration in the female human body."},
 	{"title": "Human reproduction: Anatomy, fertilization and puberty", "url": "ikaogWXgMos", "duration":"6:10", "description": "This video explains the process of fertilization as well as puberty."}
 	],
-	"Reproductive in flowering plants": [
+	"Reproduction in flowering plants": [
 	{"title": "Introduction to plant reproduction", "url": "AYyqNiLvAx4", "duration":"4:50", "description": "This video gives you a brief overview of the reproduction flowering plants."},
 	{"title": "Plant reproduction: flower anatomy and pollination", "url": "h077JEQ8w6g", "duration":"4:12", "description": "This video discusses the flower anatomy and  also the process of  pollination. "},
 	{"title": "Plant reproduction:  fertilization, seed formation and dispersal", "url": "WhACez3y6Hc", "duration":"4:20", "description": "This video explains the process of fetilization, seed formation and dispersal in plants."},
@@ -156,7 +156,7 @@
 			"Work, Energy & Power", "Simple Harmonic Motion(SHM)", 
 			"Equilibrium of forces", "Simple Machines", "Friction & Viscosity",
 			"Pressure", "Temperature & its measurement", "Thermal expansion",
-			"Heat energy", "Change of state", "Waves", "Light", "Fields",
+			"Heat energy", "Change of state", "Waves", "Fields",
 			"Atoms", "Simple A.C circuits", "Electromagnetic Induction"  
 			],
 			"Units & measurements": [
@@ -169,7 +169,7 @@
 					{"title": "Motion and its types part II", "url": "7J_Pi4Xuk7Y", "duration":"4:43", "description": "This lesson explains the different types of motion."},
 					{"title": "Newton's Laws of Motion", "url": "10KqhXbbLzs", "duration":"23:22", "description": "This video explains the Newton's Laws of Motion with illustrations."}                       
 			],
-			"Scalars & Vectors": [
+			"Scalars & vectors": [
 					{"title": "Introduction to scalar and vector quantity", "url": "Pj8Zh0A-uLU", "duration":"2:22", "description": "This is an introduction to scalar and vector quantity."},                        
 					{"title": "Scalars and Vectors", "url": "rcDXQ-5H8mk", "duration":"11:20", "description": "This video explains the scalar and vector quantities in physics."}                       
 			],
@@ -213,7 +213,7 @@
 					{"title": "Thermal expansion equations", "url": "dmq_X5vtPoA", "duration":"4:15", "description": "This video discusses the thermal expansion equation and its variables."},                        
 					{"title": "Thermal expansion: why gaps are left between railway tracks", "url": "9JuKqkZVgTU", "duration":"4:18", "description": "This video explains the reason why gaps are left between railway tracks."}                        
 			],
-			"Heat Energy": [
+			"Heat energy": [
 					{"title": "Introduction to heat energy", "url": "xGKg3TSO4v8", "duration":"6:47", "description": "This video explains what heat energy is."},                        
 					{"title": "Uses of heat energy", "url": "AxzSZX-hHIw", "duration":"1:16", "description": "This video explains the uses of heat energy."},                        
 					{"title": "Sources of heat energy", "url": "01K3vqjgk3g", "duration":"2:44", "description": "This video explains the sources of heat energy."},                        
@@ -234,7 +234,7 @@
 					{"title": "Electric field", "url": "mdulzEfQXDE", "duration":"9:56", "description": "This video discusses electric field as a type of field."},                        
 					{"title": "Gravitational field", "url": "g17GhkO-94M", "duration":"9:14", "description": "This video discusses gravitational field as atype of field."}                      
 			],
-			"Atom": [
+			"Atoms": [
 					{"title": "History of atoms?", "url": "3z-f63MiPB4", "duration":"3:21", "description": "This video briefly discusses the history of an atom."},                        
 					{"title": "What is an atom?", "url": "pNroKeV2fgk", "duration":"3:59", "description": "This video briefly discusses what an atom is."},                        
 					{"title": "Parts of an atom", "url": "cpBb2bgFO6I", "duration":"2:23", "description": "This video discusses the different parts of an atom."}                        
@@ -251,12 +251,12 @@
 	"chemistry": {
 			"topics": ["Introduction to Chemistry", "Nature of matter", "Elements", 
 					"Atomic structure", "Compounds and mixtures", "IUPAC Nomenclature",
-					"Separation techniques", "Chemical equation", "Laws of Chemical Combination",
+					"Separation techniques", "Chemical equations", "Laws of chemical combination",
 					"Periodic tables", "Kinetic theory of matter",
-					"Gases", "Acids, Bases and Alkalis", "Salts and Neutralization", "PH scale", "Carbon",
+					"Gases", "Acids, Bases & Alkalis", "Salts and Neutralization", "PH scale", "Carbon",
 					"Hydrocarbons & petroleum", "Ionic theory", "Electrochemical cells",
-					"Electrolysis", "Water", "Halogen Family", "Metals and their compounds", 
-					"Acid/Baase reactions", "Tranisition elements", "Fats & oils", 
+					"Electrolysis", "Water", "Halogen family", "Metals and their compounds", 
+					"Acid/Base reactions", "Transition elements", "Fats & oils", 
 					"Nuclear chemistry", "Radioactivity"
 			],
 			"Introduction to Chemistry": [
@@ -271,11 +271,11 @@
 					{"title": "Chemical ele ments I", "url": "L1IBnH4y6-M", "duration":"6:42", "description": "This video describes what chemical elements are in chemistry."},
 					{"title": "Chemical elements II", "url": "dMFkD_QWTOM", "duration":"5:48", "description": "This video describes what chemical elements are in chemistry."}
 			], 
-			"Atomic Structure": [
+			"Atomic structure": [
 					{"title": "Introduction to Atom", "url": "4YUWHWBrvI4", "duration":"35:35", "description": "This video discusses atom in details."},
 					{"title": "Atomic structure:Protons, Electrons and Neutrons", "url": "EMDrb2LqL7E", "duration":"13:30", "description": "This video explains the atomic structure: protons, electrons and neutrons."}
 			], 
-			"Compounds & mixtures": [
+			"Compounds and mixtures": [
 					{"title": "Meaning of an element, mixture and compound", "url": "aKVonDfbHrQ", "duration":"10:51", "description": "This video explains the meaning of element, compound and mixtures."},
 					{"title": "Mixtures and compounds in summary", "url": "aKVonDfbHrQ", "duration":"6:34", "description": "This video points out the difference between compounds and mixtures in chemistry."}
 			], 
@@ -306,7 +306,7 @@
 					{"title": "Gas Laws Crash Course", "url": "BxUS1K7xu30", "duration":"9:02", "description": "This video discusses gas laws with illustrations."},
 					{"title": "Gas Laws: problems and solutions", "url": "IE8-izIba40", "duration":"1:00:04", "description": "This video discusses gas laws: equations and formulas."}
 			], 
-			"Acid, Bases & Alkalis": [
+			"Acids, Bases & Alkalis": [
 					{"title": "Acid, Bases and Alkalis", "url": "ckbsHM2igT0", "duration":"3:10", "description": "In this video, you will learn about acid, base and alkalis."},
 					{"title": "Difference between Bases and Alkalis", "url": "d7JXsfPme8E", "duration":"5:40", "description": "This video explains the differences between bases and alkalis."}
 			], 
@@ -316,7 +316,7 @@
 					{"title": "Making souble salts", "url": "lpM_VCMPFug", "duration":"5:25", "description": "This video explains the process of making soluble salts."},
 					{"title": "Neutralization reactions", "url": "lBjwMcHUyBY", "duration":"4:34", "description": "This video explains neutralization reactions."}
 			],
-			"PH Scale": [
+			"PH scale": [
 					{"title": "pH in everyday life", "url": "r3hirzlWILM", "duration":"3:48", "description": "This video discusses pH as seen in everyday life."},
 					{"title": "pH and pOH crash course", "url": "LS67vS10O5Y", "duration":"11:22", "description": "This video explains the pH and pOH in details."}
 			],
@@ -342,7 +342,7 @@
 					{"title": "Electrolysis crash course", "url": "67kX9OV3wAs", "duration":"29:20", "description": "This video explains electrolysis."},
 					{"title": "Electrolysis and Faraday's Laws", "url": "lf59jnSIUVQ", "duration":"34:17", "description": "This video explains Electrolysis and Faraday's laws."}
 			],
-			"water": [
+			"Water": [
 					{"title": "Water introduction", "url": "HVT3Y3_gHGg", "duration": "11:16", "description": "This video briefly discusses water."},
 					{"title": "Water", "url": "pjClihDmfeA", "duration":"17:08", "description": "This video explains water in terms of chemistry."}
 			],

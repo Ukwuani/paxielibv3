@@ -1,7 +1,18 @@
-[
-        {"course": "Biology", "url": "/learn/biology", "class": "all", "department": "sciences", "topic": "Essesntial Biology"},
-        {"course": "Chemistry", "url": "/learn/chemistry", "class": "senior", "department": "sciences", "topic": "Introduction to Chemistry"},
-        { "course": "Physics", "url": "/learn/physics", "class": "all", "department": "sciences", "topic": "World of Physics"},
-        { "course": "Math", "url": "/learn/maths", "class": "all", "department": "general", "topic": "Understanding Mathematics"}
+{
+        "sciences": [
+                {"course": "Biology", "url": "/learn/biology", "class": "all", "department": "sciences", "topic": "Essesntial Biology"},
+                {"course": "Chemistry", "url": "/learn/chemistry", "class": "senior", "department": "sciences", "topic": "Introduction to Chemistry"},
+                { "course": "Physics", "url": "/learn/physics", "class": "all", "department": "sciences", "topic": "World of Physics"},
+                { "course": "Math", "url": "/learn/maths", "class": "all", "department": "general", "topic": "Understanding Mathematics"}
 
-]
+        ],
+        "arts": [
+                { "course": "Math", "url": "/learn/maths", "class": "all", "department": "general", "topic": "Understanding Mathematics"}
+        ],
+        "commercial": [
+                { "course": "Math", "url": "/learn/maths", "class": "all", "department": "general", "topic": "Understanding Mathematics"}
+        ],
+        "social": [
+                { "course": "Math", "url": "/learn/maths", "class": "all", "department": "general", "topic": "Understanding Mathematics"}
+        ]
+}
