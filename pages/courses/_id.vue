@@ -3,7 +3,7 @@
     <div v-if="courses!=null" class="AceCourses columns">
                 
             <n-link
-                v-for="course in courses"
+                v-for="course in courses[dept]"
                 :key="course._id"
                 :to="course.url"
                 class="column col-3 col-sm-12 col-md-6">
@@ -36,6 +36,7 @@
 
 <script>
 import Card from '~/components/Card'
+import Courses from '~/db/courses.json'
 
 export default {
   name: 'LearnPage',
@@ -75,6 +76,7 @@ export default {
         },
         data () {
             return {
+                courses: Courses,
                 options: [
                     {
                         image: '/img/student.png',
@@ -86,22 +88,22 @@ export default {
             }
         },
 
-  // async asyncData() {
-  //   this.courses = await fetch('/api/courses').then(res => res.json())
-  //   console.log(this.courses)
-  // },
+  asyncData ({params, redirect}) {
+    if (!Courses[params.id]) redirect('/');
+    return {dept: params.id};
+  },
 
-  async asyncData({params, $axios }) {
-      const depts = {
-          arts: "arts",
-          science: "sciences",
-          social: "social",
-          commercial: "commercial"
-      }
-      const courses = await $axios.$get(`/api/courses?${(depts[params.course]) ? 'department=' + depts[params.course] : ''}`, {department: depts[params.course]})
+//   async asyncData({params, $axios }) {
+//       const depts = {
+//           arts: "arts",
+//           science: "sciences",
+//           social: "social",
+//           commercial: "commercial"
+//       }
+//     //   const courses = await $axios.$get(`/api/courses?${(depts[params.course]) ? 'department=' + depts[params.course] : ''}`, {department: depts[params.course]})
      
-      return { courses }
-    },
+//     //   return { courses }
+//     },
 
 
 

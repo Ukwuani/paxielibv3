@@ -14,7 +14,9 @@
         <div class="accordion" v-for="(topic, index) in lessons[course].topics" :key="topic">
           <input type="checkbox" :id="`accordion-${index}`" name="accordion-checkbox" hidden>
           <label class="accordion-header" :for="`accordion-${index}`">
-            {{topic}} <span class="mx-2 text-gray"> &#8226; {{lessons[course][topic].length}} lessons</span>
+            {{topic}} <span class="mx-2 text-gray"> &#8226; 
+              {{lessons[course][topic].length}} 
+              lessons</span>
           </label>
             <div class="accordion-body">
               <ul class="menu menu-nav">
@@ -72,7 +74,7 @@ export default {
         },
   data () {
     return {
-      src: "M7lc1UVf-VE",
+      src: "cM_-a7jxJLs",
       lessons: Lessons,
       catchPhrases: [
         'Identify the <b> SCHOLAR IN YOU</b>',
